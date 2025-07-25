@@ -112,10 +112,10 @@ You can log in with the following default credentials:
 
 -   **Executive Account:**
     -   Username: `exec_user`
-    -   Password: `TeaTime$2025!`
+    -   Password: `password123`
 -   **Employee Account:**
     -   Username: `emp_user`
-    -   Password: `TeaTime$2025!`
+    -   Password: `password`
 
 ### API Endpoints
 
