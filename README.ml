@@ -9,13 +9,19 @@ A full-stack, containerized inventory and sales management application designed 
 
 ***
 
-### Application Preview
+### Feature Showcase
 
-<!-- 
-    **Action Item:** Take a high-quality screenshot or a GIF of your application's UI (especially the Executive Dashboard) and replace this placeholder. This is the first thing people will see!
--->
-![image](https://github.com/user-attachments/assets/1491a21c-0251-4111-8111-1491a21c0251)
+#### Executive Dashboard
+The executive dashboard provides a consolidated, at-a-glance overview of all user activity for a selected date, including grand totals for cost, revenue, and profit.
 
+![Tea Tracker Dashboard Preview](./assets/images/dashboard-preview.png)
+
+***
+
+#### User & Account Management
+The executive role also includes a dedicated account management panel for creating new employee users, deleting existing users, and managing passwords.
+
+![Tea Tracker Account Management Page](./assets/images/account-management.png)
 
 ### Abstract
 
