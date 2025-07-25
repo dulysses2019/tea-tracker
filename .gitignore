@@ -1,0 +1,12 @@
+# Ignore the file containing secrets and environment variables
+.env
+
+# Ignore log files
+logs/
+
+# Ignore vendor directories (if you were using a package manager like Composer)
+# vendor/
+
+# Ignore system files from different operating systems
+.DS_Store
+Thumbs.db

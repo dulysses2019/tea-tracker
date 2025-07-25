@@ -1,0 +1,10 @@
+# Ignore files and directories from the Docker build context
+
+.git
+.gitignore
+.vscode/
+.env
+Dockerfile
+docker-compose.yml
+docker-entrypoint.sh
+README.md

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Tea Tracker</title>
+    
+    <!-- 1. Link to your existing, main stylesheet -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    
+    <style>
+        /* 2. Add a few page-specific styles to center the form */
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+        .login-container {
+            max-width: 450px;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- 3. Use the SAME class names as your main application -->
+    <div class="container login-container">
+        <div class="header">
+            <h1>🍃 Tea Tracker Login</h1>
+        </div>
+
+        <div id="login" class="tab-content active">
+            <div id="loginForm">
+                <label for="username" style="font-weight: bold; margin-bottom: 5px; display: block;">Username</label>
+                <input type="text" id="username" class="inventory-input" required placeholder="e.g., emp_user">
+                
+                <label for="password" style="font-weight: bold; margin-top: 15px; display: block;">Password</label>
+                <div style="position: relative; display: flex; align-items: center;">
+                    <input type="password" id="password" class="inventory-input" required placeholder="e.g., password123" style="padding-right: 40px;">
+                    <button type="button" id="togglePassword" style="position: absolute; right: 10px; background: none; border: none; cursor: pointer; font-size: 1.2em;">
+                        👁️
+                    </button>
+                </div>
+                <div style="text-align: center; margin-top: 20px;">
+                <button class="action-button" onclick="handleLogin()">Secure Login</button>
+                </div>
+                
+                <div id="loginMessage" style="margin-top: 15px;"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 4. Link to the dedicated JavaScript for authentication -->
+    <script src="assets/js/auth.js"></script>
+
+</body>
+</html>
