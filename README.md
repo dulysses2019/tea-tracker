@@ -29,7 +29,7 @@ This project is more than just a simple CRUD application; it's a demonstration o
 
 ### Key Features
 
--   **Multi-User Authentication & Roles:** A complete login system with two distinct user roles: `employee` and `executive`.
+-   **Multi-User Authentication & Roledulysses2019/first-contributionss:** A complete login system with two distinct user roles: `employee` and `executive`.
 -   **Role-Based Authorization:** Employees can only view and manage their own daily data. Executives have a complete overview of all user activity.
 -   **Executive Dashboard:** A dedicated, executive-only reporting view that provides a consolidated summary of all costs, revenue, and profit, with a per-employee breakdown for any given day.
 -   **Daily Inventory Management:** Easily set up the day's starting inventory for each tea product. Data is scoped per user.
